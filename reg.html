@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="reg.css">
+
+
+</head>
+<body>
+    <h1 align="center">Student Registration Form Using Take in HTML</h1>
+    <form align="center">
+        <div>
+        <label for="fname">First Name:</label>
+        <input type="text" required name="fname" id="fname" >    (Max 50 character Allowed)
+    </div><br>
+    <div>
+        <label for="fname">Last Name:</label>
+        <input type="text"  required name="lname" id="lname" >    (Max 50 character Allowed)
+    </div><br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" required name="email" id="email">
+    </div><br>
+<div>
+        <label for="number">MobileNo:</label>
+        <input type="text" required name="number" id="number">    (10 Digit Allowed)
+    </div><br>
+    <div>
+    <label for="gender">Gender:</label>
+    <input type="radio"  name="gender" id="gender"> Male  
+    <input type="radio"  name="gender" id="gender"> Female
+    </div><br>
+    <div>
+    <label for="dob">DOB:</label>
+<input type="date"  required name="dob" id="dob">
+</div><br>
+<div>
+<label for="addr">Address:</label>
+<textarea id="addr" required name="addr" rows="1" cols="15"></textarea>
+</div><br>
+<div>
+    <label for="city">City:</label>
+    <input type="text" required name="city" id="city">     (Max 50 character Allowed)
+</div><br>
+<div>
+    <label for="pincode">Pin Code:</label>
+    <input type="text" required name="pincode" id="pincode">   (Max 6 character Allowed)
+<div><br>
+<label for="state">State:</label>
+<select>
+   <option value="Tamil Nadu">TN</option>
+   <option value="Kerala">Kerala</option>
+   <option value="Karnadaka">karnadaka</option> 
+   </select>
+</div><br>
+<div>
+    <label for="country">Country:</label>
+    <select>
+       <option value="india">India</option>
+       <option value="usa">USA</option>
+       <option value="uk">UK</option> 
+       </select>
+    </div><br>
+    <div>
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox">Drawing
+        <input type="checkbox">Singing
+        <input type="checkbox">Dancing
+        <input type="checkbox">Skaetching
+       
+        <input type="checkbox">other
+        <input type="text"placeholder="Ex">
+    </div><br>
+    <div>
+        <label for="qualification">Qualification:</label>
+        <input type="checkbox">10th
+        <input type="checkbox">12th
+        <input type="checkbox">UG
+    </div><br>
+    <div>
+        <label for="course applied for">Courses Applied for:</label>
+        <input type="radio"  name="MCA" id="MCA"> MCA 
+        <input type="radio"  name="MBA" id="MBA"> MBA  
+        <input type="radio"  name="M.COM" id="M.COM">M.COM   
+        <input type="radio"  name="ME" id="ME"> ME 
+    </div><br>
+    
+<button><a href="login.html"alt="">Submit</a></button>
+    <button>Reset</button>
+
+
+    </form>
+</body>
+</html>
+
+
